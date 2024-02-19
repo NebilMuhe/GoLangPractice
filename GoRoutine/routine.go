@@ -23,6 +23,7 @@ func main() {
 
 	go increment(ch)
 	go increment(ch)
+	//channels
 
 	<-ch
 
